@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Home {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem 1rem 2rem;
+  align-items: center;
+  background: rgba(248, 247, 247, 1);
+
+  h2 {
+    font-size: 30px;
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      padding: 2rem;
+
+      a {
+        font-size: 20px;
+        color: black;
+      }
+
+      a:hover {
+        color: blue;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .Sign {
+    display: flex;
+    gap: 1rem;
+
+    .but {
+      width: 80px;
+      height: 35px;
+      background: none;
+      border: none;
+    }
+
+    .but1 {
+      width: 80px;
+      height: 35px;
+      border: 2px solid darkorange;
+      background: white;
+      color: darkorange;
+    }
+  }
+}
+
+/* ==============================Login and Sign up Home page body=========================================== */
+.perfact {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(248, 247, 247, 1);
+  padding: 1rem 2rem 1rem 2rem;
+
+  .div {
+    margin-top: 4rem;
+    line-height: 2rem;
+
+    h1 {
+      font-size: 48px;
+      font-weight: 900;
+      width: 500px;
+      line-height: 3rem;
+    }
+
+    p {
+      width: 400px;
+    }
+
+    div {
+      margin-top: 3rem;
+      line-height: 0;
+
+      form {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        background: white;
+        align-items: center;
+
+        input {
+          border: none;
+        }
+
+        .btn1 {
+          border: none;
+          height: 30px;
+          width: 90px;
+          background: darkorange;
+          margin: 0 6px 0 0;
+        }
+      }
+
+      .btn2 {
+        width: 70px;
+        height: 30px;
+        border: none;
+        background: white;
+        color: darkorange;
+      }
+
+      .btn3 {
+        width: 70px;
+        height: 30px;
+        border: none;
+        background: #ccc;
+      }
+    }
+  }
+
+  .work {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.team {
+  background: rgba(248, 247, 247, 1);
+  padding: 2rem 0 2rem 0;
+
+  div {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+
+    .trust {
+      font-size: 40px;
+      font-weight: 900;
+
+      span {
+        color: darkorange;
+      }
+    }
+
+    p {
+      width: 680px;
+    }
+
+    .company {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      margin: auto;
+
+      .com_pho {
+        width: 150px;
+        height: 80px;
+      }
+
+      .com_pho1 {
+        width: 150px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================LOGIN_STYLE============================================================== */
+.login {
+  display: flex;
+  height: fit-content;
+  background: rgba(248, 247, 247, 1);
+
+  h2 {
+    margin: 1rem;
+  }
+
+  .login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-form {
+    width: fit-content;
+    color: white;
+    background: rgba(0, 0, 0, .1);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+
+  form {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 1.5rem;
+
+    label {
+      color: black;
+    }
+  }
+
+  .login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 16px;
+  }
+
+  .create-account {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn {
+    padding: 10px;
+    background-color: #38b77a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+}
+
+
+footer {
+  background: black;
+  margin-top: .4rem;
+  padding: 2rem 2rem 4rem 2rem;
+  text-decoration: underline;
+  font-size: 12px;
+
+  .foot {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    line-height: 2rem;
+
+    a {
+      color: white;
+    }
+  }
+}
